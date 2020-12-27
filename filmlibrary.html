@@ -74,8 +74,10 @@ font-family: Helvetica, Arial, Times New Roman;
 <li>horror</li>
 <li>comedy</li>
 </ol>
-<p><a href="picture.jpg">Picture</a></p>
-<p><a href="http://www.repertuary.pl">Look for cinema repertoir</a></p>
+<center>
+<p align="middle"><a href="picture.jpg">Picture</a></p>
+<p align="middle"><a href="http://www.repertuary.pl">Look for cinema repertoir</a></p>
+</center>
 </div>
   <div id="1pprawy">
 <h1>FILM LIBRARY</h1>
@@ -83,9 +85,9 @@ font-family: Helvetica, Arial, Times New Roman;
   <div id="2pprawy">
 <form method="post" action="add.php">
 <label>Title: </label><input type="text" name="title"></br></br>
-<label>Film genre: </label><input type="range" min="1" max="5" name="genre"></br></br>
-<label>Production year: </label><input type="number" name="year"></br></br>
-<label>Rating: </label><input type="range" min="1" max="10" name="rating"></br></br>
+<label>Film genre: </label><input placeholder="1-5" type="number" min="1" max="5" name="genre"></br></br>
+<label>Production year: </label><input type="number" min="1895" max="2020" name="year"></br></br>
+<label>Rating: </label><input placeholder="1-10" type="number" min="1" max="10" name="rating"></br></br>
 <input type="reset" name="reset" value="RESET">
 <input type="submit" name="submit" value="POST">
 <br/>
