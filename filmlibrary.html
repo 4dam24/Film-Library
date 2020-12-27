@@ -83,11 +83,11 @@ font-family: Helvetica, Arial, Times New Roman;
   <div id="2pprawy">
 <form method="post" action="add.php">
 <label>Title: </label><input type="text" name="title"></br></br>
-<label>Film genre: </label><input type="number" name="genre"></br></br>
+<label>Film genre: </label><input type="range" min="1" max="5" name="genre"></br></br>
 <label>Production year: </label><input type="number" name="year"></br></br>
-<label>Rating: </label><input type="number" name="rating"></br></br>
-<input type="reset" name="czysc" value="RESET">
-<input type="submit" name="wyslij" value="SUBMIT">
+<label>Rating: </label><input type="range" min="1" max="10" name="rating"></br></br>
+<input type="reset" name="reset" value="RESET">
+<input type="submit" name="submit" value="POST">
 <br/>
 </form>
 
